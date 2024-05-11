@@ -1,0 +1,54 @@
+:root {
+  --dark-green: #1c2e03;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #fffbeb;
+}
+
+.card:hover {
+  background-color: #fff0b6;
+}
+
+.bg-light-amber {
+  background-color: #fffbeb;
+}
+
+.bg-dark-amber {
+  background-color: #fcf3c6;
+}
+
+.fw-black {
+  font-weight: 900;
+}
+
+.text-dark-green {
+  color: var(--dark-green);
+}
+
+.btn-dark-green {
+  color: white;
+  background-color: var(--dark-green);
+}
+
+#heroes {
+  background-image: url('/img/banner/banner-background.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+#produk,
+footer {
+  background-color: #f5deb3;
+}
+
+#testimoni {
+  background-image: url('/img/banner/banner-testimoni.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
